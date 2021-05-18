@@ -1,14 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Hello from './Hello';
+import Card from './Card';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 
 
 ReactDOM.render(
  <React.StrictMode>
-    <Hello greeting = {'wè.' + 'How is going?' }/>,
+    
+    <div>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+    </div>
+
+
  </React.StrictMode>,
   document.getElementById('root')
 );
