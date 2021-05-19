@@ -1,22 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Card from './Card';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 
 
 ReactDOM.render(
  <React.StrictMode>
-    
-    <div>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-    </div>
-
-
+    <App />
  </React.StrictMode>,
   document.getElementById('root')
 );
